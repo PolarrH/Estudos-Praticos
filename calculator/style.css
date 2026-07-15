@@ -1,0 +1,27 @@
+    
+
+body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+    }
+    input {
+        width: 200px;
+        height: 30px;
+        margin-bottom: 10px;
+        text-align: right;
+    }
+    button {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        font-size: 18px;
+    }
+    #calculator {
+        display: inline-block;
+        text-align: center;
+    }
