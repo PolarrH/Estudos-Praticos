@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.timer {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+   padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#start {
+  background-color: #013f03;
+  color: white;
+  font-size: 1.5rem;
+}
+#pause{
+  background-color: #7c0e06;
+  color: white;
+  font-size: 1.5rem;
+}
+#reset {
+  background-color: #001d9c;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.settings {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
