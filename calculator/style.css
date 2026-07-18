@@ -6,7 +6,8 @@ body {
         justify-content: center;
         align-items: center;
         font-family: Arial, sans-serif;
-        background-color: #ffffff;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1K8DExhnNgzpZk_ZKJxaJEDj_QQ8f0VMh_vhuNEpHjkgyAsgAr2DhSZI&s=10");
+        background-size: cover;
     }
     input {
         width: 200px;
@@ -19,8 +20,34 @@ body {
         height: 50px;
         margin: 5px;
         font-size: 18px;
+        cursor: pointer;
+        box-shadow: 0 4px #525252;
+        border-radius: 5px;
     }
     #calculator {
         display: inline-block;
         text-align: center;
+        outline: 3px solid #000000;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #858585;
+
+    }
+    #clearButton {
+        background-color: #420000;
+        color: white;
+        position: relative;
+        left: 97px;
+    }
+    #equalsButton {
+        background-color: #0c3001;
+        color: white;
+    }
+    #display{
+        background-color: #c2c2c2;
+        border: 3px solid #000000;
+        border-radius: 5px;
+    
     }

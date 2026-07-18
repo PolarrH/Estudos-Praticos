@@ -10,7 +10,7 @@
 <body>
 
 <div id="calculator">
-<h1>Calculator</h1>
+<!-- <h1 id="tittle">Calculator</h1> -->
     <input type="text" id="display" disabled>
     <br>
     <button onclick="appendToDisplay('1')">1</button>
@@ -30,10 +30,10 @@
     <br>
     <button onclick="appendToDisplay('0')">0</button>
     <button onclick="appendToDisplay('.')">.</button>
-    <button onclick="calculate()">=</button>
     <button onclick="appendToDisplay('/')">/</button>
+    <button id="equalsButton" onclick="calculate()">=</button>
     <br>
-    <button onclick="clearDisplay()">C</button>
+    <button id="clearButton" onclick="clearDisplay()">C</button>
 </div>
 
 </body>
