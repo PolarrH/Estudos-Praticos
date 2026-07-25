@@ -8,9 +8,15 @@ function appendToDisplay(value) {
 
     function calculate() {
         try {
-            const result = eval(document.getElementById('display').value);
-            document.getElementById('display').value = result;
+            const expression = document.getElementById('display').value;
+            const result = eval(expression);
+
+            if (!Number.isFinite(result)) {
+                document.getElementById('display').value = 'Error';
+            } else {
+                document.getElementById('display').value = result;
+            }
         } catch (error) {
-            document.getElementById('display').value = 'Error'; 
+            document.getElementById('display').value = 'Error';
         }
     }
