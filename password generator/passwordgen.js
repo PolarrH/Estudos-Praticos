@@ -16,3 +16,11 @@ function generatePassword(length) {
     }
     return password;
 }
+
+async function copyPassword() {
+    const output = document.getElementById("password");
+    if (output) {
+        output.select();
+        await navigator.clipboard.writeText(output.value);
+    }
+}
